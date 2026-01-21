@@ -108,6 +108,3 @@ Located in the backend service:
 - For non-Docker usage, ensure `DATABASE_URL` and `REDIS_URL` are set correctly
 
 ---
-
-## Purpose
-This project is designed for **learning, experimentation, and demo use** — not for production payment processing.
