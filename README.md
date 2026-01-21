@@ -4,7 +4,7 @@ A fully dockerized **payment gateway development environment** featuring an API 
 
 ---
 
-## 🚀 Technology Overview
+## Technology Overview
 - **Backend API**: Node.js + Express
 - **Async Processing**: BullMQ with Redis
 - **Database**: PostgreSQL 15
@@ -16,7 +16,7 @@ A fully dockerized **payment gateway development environment** featuring an API 
 
 ---
 
-## 🔌 Running Services & Ports
+## Running Services & Ports
 | Service | URL / Port |
 |-------|------------|
 | API Server | http://localhost:8000 |
@@ -32,7 +32,7 @@ A fully dockerized **payment gateway development environment** featuring an API 
 
 ---
 
-## ⚡ Getting Started (Docker)
+## Getting Started (Docker)
 1. *(Optional)* Copy environment file:
    ```bash
    cp .env.example .env
@@ -50,18 +50,18 @@ A fully dockerized **payment gateway development environment** featuring an API 
 
 ---
 
-## 🔑 Demo Merchant Credentials (Preloaded)
+## Demo Merchant Credentials (Preloaded)
 - **Merchant Email**: test@example.com
 - **API Key**: key_test_abc123
 - **API Secret**: secret_test_xyz789
 - **Merchant UUID**: 550e8400-e29b-41d4-a716-446655440000
 - **Webhook Secret**: whsec_test_abc123
 
-> ⚠️ These credentials are for **local testing only**.
+> These credentials are for **local testing only**.
 
 ---
 
-## 📡 API Reference (Common Routes)
+## API Reference (Common Routes)
 ### System
 - `GET /health` — Service health check
 
@@ -93,7 +93,7 @@ A fully dockerized **payment gateway development environment** featuring an API 
 
 ---
 
-## 🛠 Backend Scripts
+## Backend Scripts
 Located in the backend service:
 - `npm start` — Start API server
 - `npm run dev` — API with live reload
@@ -101,7 +101,7 @@ Located in the backend service:
 
 ---
 
-## 🧪 Development Notes
+## Development Notes
 - Redis connection defaults to `redis://redis:6379` inside Docker
 - Payment results are **mocked** using environment flags
 - Delays and success rates are configurable for testing scenarios
