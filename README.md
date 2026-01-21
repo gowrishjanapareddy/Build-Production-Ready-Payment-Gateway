@@ -109,8 +109,5 @@ Located in the backend service:
 
 ---
 
-## 📦 Purpose
+## Purpose
 This project is designed for **learning, experimentation, and demo use** — not for production payment processing.
-
-Happy hacking! 💳⚙️
-
